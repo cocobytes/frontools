@@ -9,7 +9,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  dest: 'build',
+  dest: 'docs',
   base: '/frontools/',
 
   themeConfig: {
