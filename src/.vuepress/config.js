@@ -69,7 +69,7 @@ module.exports = {
           { text: 'code image', link: 'https://app.codeimage.dev' },
         ]
       }
-    ],
+    ], 
     sidebar: {
       '/javascript/': [
         {
@@ -92,6 +92,16 @@ module.exports = {
             'promises',
             'asyn-await',
             'eslint',
+          ]
+        }
+      ],
+      '/css/': [
+        {
+          title: 'CSS',
+          collapsable: false,
+          children: [
+            '',
+            'stylelint'
           ]
         }
       ],

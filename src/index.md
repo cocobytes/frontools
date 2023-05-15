@@ -7,7 +7,7 @@
     <a href="javascript" class="lenguages__item">
         <img style="width:40px!important;" src="./img/javascript.png" />
     </a>
-    <a href="#" class="lenguages__item">
+    <a href="css" class="lenguages__item">
         <img style="width:40px!important;" src="./img/css.png" />
     </a>
     <a href="#" class="lenguages__item">
