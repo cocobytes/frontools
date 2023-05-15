@@ -91,6 +91,7 @@ module.exports = {
             'callbacks',
             'promises',
             'asyn-await',
+            'eslint',
           ]
         }
       ],
