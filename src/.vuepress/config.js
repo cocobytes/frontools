@@ -94,6 +94,16 @@ module.exports = {
           ]
         }
       ],
+      '/cmd/': [
+        {
+          title: 'TERMINAL',
+          collapsable: false,
+          children: [
+            '',
+            'icon-terminal'
+          ]
+        }
+      ],
     }
   },
 
