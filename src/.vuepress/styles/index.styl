@@ -1,0 +1,153 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+.home .hero img
+  max-width 450px!important
+
+.go-to-top 
+  cursor: pointer
+  position: fixed
+  bottom: 2rem
+  right: 2.5rem
+  width: 1.5rem!important
+  color: $accentColor!important
+  z-index: 1
+  padding: 14px 10px
+  border-radius: 50%
+  border: 1px solid $borderColor
+
+.theme-default-content pre code, .theme-default-content pre[class*="language-"] code
+  color: $textColor
+  padding: 0
+  background-color: transparent
+  border-radius: 0
+
+a.sidebar-link.active 
+  font-weight: 600
+  color: $accentColor
+  /* border-left-color: $accentColor  */
+  border-left-color: #ffffff!important
+  background-color: rgba($accentColor, .07) !important;
+
+.page-nav .next
+  padding-right: 14px!important
+  float: right
+  border: 1px solid $borderColor
+  border-radius: 5px
+
+.page-nav .next a
+  padding: 14px!important
+  color: $textColor!important
+  display: inline-block
+
+.page-nav .prev
+  padding: 14px!important
+  padding-left: 14px!important
+  border: 1px solid $borderColor
+  border-radius: 5px
+
+.page-nav .prev a
+  padding: 14px!important
+  color: $textColor!important
+  display: inline-block
+  border: none!important
+
+.page-nav .next:hover a
+  color: $accentColor!important
+
+.page-nav .prev:hover a
+  color: $accentColor!important
+
+.imagen
+  display: block
+  margin: 0 auto
+
+#herramientas-frontend
+  text-align: center
+  display: flex
+  justify-content: center
+  align-items:center
+
+.cursor
+  cursor: pointer
+
+.lenguages
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  margin-top: 50px
+
+.lenguages__item
+  margin: 10px
+  position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 50px
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  padding: 28px;
+  border-radius: 10px;
+  transition: .3s all ease
+
+.lenguages__item:hover
+  transform: translateY(-10px)
+
+th
+  text-align: left;
+
+blockquote
+  font-size: 1rem;
+  color: $accentColor;
+  border-left: 0.2rem solid $accentColor;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgba($accentColor, .03) !important;
+
+.sidebar ul
+  padding:10px!important;
+  margin: 0;
+  list-style-type: none;
+
+.hover
+  bottom: 7.5px;
+  background: white;
+  padding: 1px 5px;
+  font-size: 11px !important;
+  border-radius: 6px;
+  border: 1px solid #d5cfcf;
+  width: 16px;
+
+.sidebar .sidebar-sub-headers
+  display: none!important;
+
+.code-copy
+  position: absolute;
+  right: 5px;
+  top: 13px;
+
+div[class*="language-"]
+  position: relative
+  background-color: #f5f7f930
+  border-radius: 11px
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1)
+  border: 1px solid #e3e3e3
+  margin-top: 14px
+  
+.theme-default-content pre, .theme-default-content pre[class*="language-"]
+  padding: 3px 1.5rem!important
+
+div[class*="language-"] pre, div[class*="language-"] pre[class*="language-"]
+  font-size: 17px!important
+
+footer
+  position: absolute
+  width: 100%
+  text-align: center
+  left: 0px
+  bottom: 16px
+  font-size: 14px
+
+
