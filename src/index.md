@@ -4,7 +4,7 @@
 <p style="text-align: center;">Lista de guias y herramientas de programación para desarrollo y agilizar <br> los proyectos, se encontrara todo lo necesario para desarrollo web</p>
 
 <div class="lenguages">
-    <a href="/javascript/" target="_blank" class="lenguages__item">
+    <a href="javascript" target="_blank" class="lenguages__item">
         <img style="width:35px!important;" src="./img/javascript.png" />
     </a>
     <a href="#" target="_blank" class="lenguages__item">
