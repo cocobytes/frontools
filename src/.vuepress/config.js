@@ -101,7 +101,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'stylelint'
+            'stylelint',
+            'bem'
           ]
         }
       ],
