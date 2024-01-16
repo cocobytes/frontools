@@ -102,7 +102,8 @@ module.exports = {
           children: [
             '',
             'stylelint',
-            'bem'
+            'bem',
+            'suitcss'
           ]
         }
       ],
